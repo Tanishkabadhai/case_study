@@ -401,10 +401,7 @@ with tabs[3]:
     st.caption("City tiers aren't labeled in the data — we apply the standard classification: "
                "Mumbai & Pune = Tier-1, Nagpur & Indore = Tier-2.")
 
-    st.caption("Leadership's stated observation — investigated below against the three candidate "
-               "causes named in the brief: courier partners, hub inefficiencies, delivery attempt "
-               "failures. City tiers are an analyst assumption (see Data Notes above), not a field "
-               "in the raw data.")
+    
 
     comp_rate_city = orders.groupby("city")["has_complaint"].mean().sort_values(ascending=False) * 100
     courier_mix = pd.crosstab(orders["city"], orders["courier_partner"], normalize="index") * 100
