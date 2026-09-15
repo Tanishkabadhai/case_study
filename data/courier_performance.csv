@@ -1,0 +1,4 @@
+﻿courier_partner,avg_delivery_time,sla_breach_rate,complaint_rate
+FastEx,3,0.12,0.1
+QuickShip,5,0.32,0.28
+ShipNow,4,0.2,0.18

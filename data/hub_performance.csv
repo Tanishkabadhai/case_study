@@ -1,0 +1,5 @@
+﻿hub_id,city,total_orders,on_time_delivery,failed_attempts,rto_count
+H1,Mumbai,600,500,40,60
+H2,Pune,500,350,80,70
+H3,Nagpur,450,250,90,110
+H4,Indore,450,260,85,105
