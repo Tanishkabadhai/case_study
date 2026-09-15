@@ -31,7 +31,7 @@ def two_proportion_p_value(count1, n1, count2, n2):
 # PAGE CONFIG
 # --------------------------------------------------------------------------
 st.set_page_config(
-    page_title="ELIXIR Logistics — Festive Surge Post-Mortem",
+    page_title="Delivery Experience Decline — Festive Surge",
     page_icon="📦",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -188,7 +188,7 @@ with st.expander("Data notes & assumptions"):
 st.write("")
 
 tabs = st.tabs([
-    "🧭 Executive Summary",
+    " Executive Summary",
     "A · NPS & Customer Experience",
     "B · Operational Performance",
     "C · Tier-2 Deep Dive",
